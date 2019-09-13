@@ -1,0 +1,22 @@
+{
+  "name": "assignment3",
+  "version": "1.0.0",
+  "description": "Assignment 3 - Make use of MVC Structure to our web project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "John Benedict R. Juanzon",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/font": "^4.2.95",
+    "bulma": "^0.7.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
