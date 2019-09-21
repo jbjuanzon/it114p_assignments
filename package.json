@@ -1,7 +1,7 @@
 {
-  "name": "assignment3",
-  "version": "1.0.0",
-  "description": "Assignment 3 - Make use of MVC Structure to our web project",
+  "name": "assignment4",
+  "version": "1.0.4",
+  "description": "Make use of CSS Framework to our web project",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

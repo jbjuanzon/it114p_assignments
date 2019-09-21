@@ -5,23 +5,31 @@
     <%- include('includes/nav.ejs') %>
     <section class="section">
         <div class="container">
-            <div>
+            <div class="column is-half">
                 <form class="user-form" action="create-user" method="POST">
-                    <div class="field">
-                        <label class="label">User Name</label>
+                        <div class="field">
+                                <label class="label">Email</label>
+                                <p class="control has-icons-left has-icons-right">
+                                  <input class="input is-medium" type="email" placeholder="Example: email@gmail.com " name="username">
+                                  <span class="icon is-small is-left">
+                                    <i class="mdi mdi-email"></i>
+                                  </span>
+                                  <span class="icon is-small is-right">
+                                    <i class="mdi mdi-check-bold"></i>
+                                  </span>
+                                </p>
+                              </div>
+                              <div class="field">
+                                    <label class="label">Password</label>
+                                    <p class="control has-icons-left">
+                                      <input class="input is-medium" type="password" placeholder="Password" name="password">
+                                      <span class="icon is-small is-left">
+                                        <i class="mdi mdi-lock"></i>
+                                      </span>
+                                    </p>
+                                  </div>
                         <div class="control">
-                            <input class="input" type="text" name="username">
-                        </div>
-                    </div>
-                    <div class="field">
-                        <label class="label">Password</label>
-                        <div class="control">
-                            <input class="input" type="password" name="password">
-                        </div>
-                    </div>
-                    <div class="field is-grouped">
-                        <div class="control">
-                            <button class="button is-link" type="submit">Create</button>
+                            <button class="button is-link is-medium" type="submit">Create</button>
                         </div>
                     </div>
                 </form>
